@@ -1,0 +1,72 @@
+/* ArticlesList.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .articleList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .articleItem {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .articleItem:hover {
+    transform: translateY(-3px);
+  }
+  
+  .articleLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .articleInfo {
+    display: flex;
+  }
+  
+  .articleThumbnail {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .articleThumbnail img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .articleDetails {
+    flex: 1 1 auto;
+  }
+  
+  .articleTitle {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .articleMetadata {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .articleAbstract {
+    font-size: 16px;
+    color: #333;
+  }
+  
