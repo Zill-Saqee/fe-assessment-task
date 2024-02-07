@@ -30,21 +30,7 @@ This is a simple React application that retrieves and displays the most popular 
 
 4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Features
-- Display a list of the most popular articles from the NY Times API.
-- View detailed information for each article, including title, published date, abstract, etc.
-- Navigate back to the article list from the detail view.
-
-## Technologies Used
-- React
-- React Router
-- TypeScript
-- Jest
-- React Testing Library
-- CSS Modules
-
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Test
+To run tests, use the following command:
+```bash
+npm test
